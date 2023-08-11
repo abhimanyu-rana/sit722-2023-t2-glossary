@@ -20,4 +20,4 @@ To view the DevOps Glossary web page, you can follow these steps:
 3. Open the terminal or command prompt and navigate to the project directory.
 4. Install the project dependencies using the command: `npm install`.
 5. Start the web server using the command: `npm start`.
-6. Open your web browser and visit `http://localhost:3000` to access the web page.
+6. Open your web browser and visit `http://localhost:3001` to access the web page.
