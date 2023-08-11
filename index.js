@@ -1,8 +1,8 @@
 const express = require('express');
 const app = express();
-const port = 3000;
+const port = 3001;
 
-// Sample data (replace this with your actual data from a database or API)
+
 const tableData = [
   { id: 1, term: 'Infrastructure as Code (IaC)', description: 'IaC revolves around utilizing code and configuration files to handle the setup and allocation of infrastructure resources. This streamlines the process of deploying and expanding resources in a uniform and automated manner.', references: '“What is Infrastructure as Code (IaC)?,” www.redhat.com. https://www.redhat.com/en/topics/automation/what-is-infrastructure-as-code-iac#:~:text=Infrastructure%20as%20Code%20(IaC)%20is' },
 
@@ -23,21 +23,21 @@ const tableData = [
   { id: 9, term: 'Continuous Delivery (CD)', description: 'CD automates the process of releasing code modifications upon successful integration, enabling consistent and frequent software releases that can be relied upon.', references: '[1]Atlassian, “Continuous Delivery - Get Started with CI/CD,” Atlassian. https://www.atlassian.com/continuous-delivery#:~:text=Continuous%20delivery%20is%20an%20approach (accessed Aug. 10, 2023).' },
 
   { id: 10, term: 'Incident Management', description: 'Incident Management involves a set of procedures and methods designed to handle and rectify disruptions or occurrences within the production environment. Its core aim is to promptly reinstate normal operations while minimizing any negative impact on users.', references: '[1]Asana, “What is Incident Management? Tips and Best Practices [2023] • Asana,” Asana. https://asana.com/resources/incident-management# (accessed Aug. 10, 2023).' },
-  // Add more data as needed
+
 ];
 
-// Set the view engine to use EJS
+
 app.set('view engine', 'ejs');
 
-// Serve static files from the 'public' folder
+
 app.use(express.static(__dirname + '/public'));
 
-// Route to display the table
+
 app.get('/', (req, res) => {
   res.render('index', { tableData });
 });
 
-// Start the server
+
 app.listen(port, () => {
   console.log(`Server is running on http://localhost:${port}`);
 });
