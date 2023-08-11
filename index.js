@@ -6,7 +6,7 @@ const port = 3001;
 const tableData = [
   { id: 1, term: 'Infrastructure as Code (IaC)', description: 'IaC revolves around utilizing code and configuration files to handle the setup and allocation of infrastructure resources. This streamlines the process of deploying and expanding resources in a uniform and automated manner.', references: '“What is Infrastructure as Code (IaC)?,” www.redhat.com. https://www.redhat.com/en/topics/automation/what-is-infrastructure-as-code-iac#:~:text=Infrastructure%20as%20Code%20(IaC)%20is' },
 
-  { id: 2, term: 'Kubernetes', description: 'Kubernetes, an open-source tool for orchestrating containers, takes care of the automatic management, scaling, and oversight of applications that are containerized.', references: '“Overview,” Kubernetes. https://kubernetes.io/docs/concepts/overview/' },
+  { id: 2, term: 'Kubernetes', description: 'Kubernetes, an open-source tool for orchestrating containers, takes care of the automatic management, scaling, and oversight of applications that are containerized.', references: '“Overview,” Kubernetes. https://kubernetes.io/docs/concepts/overview/#:~:text=Kubernetes%20is%20a%20portable%2C%20extensible' },
 
   { id: 3, term: 'Version Control', description: 'Version control systematically monitors and administers changes in code and files, fostering collaborative development and preserving a chronological record of code modifications.', references: '[1]Atlassian, “What is version control | Atlassian Git Tutorial,” Atlassian. https://www.atlassian.com/git/tutorials/what-is-version-control#:~:text=Version%20control%2C%20also%20known%20as' },
 
