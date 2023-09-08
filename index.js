@@ -44,6 +44,26 @@ const tableData = [
 
   { id: 20, term: 'Root Cause Analysis (RCA)', description: 'RCA is a systematic investigative process employed to pinpoint the fundamental causes of issues or incidents in software systems. It aids in preventing the recurrence of similar problems by addressing the core underlying factors.', references: 'American Society for Quality, “What is root cause analysis (RCA)?,” Asq.org, 2019. https://asq.org/quality-resources/root-cause-analysis' },
 
+  { id: 21, term: 'Scalability', description: 'Scalability pertains to a systems capacity to handle increased workloads and growing demands while maintaining performance, typically by adding more resources or nodes as needed.', references: '“Scalability,” Investopedia. https://www.investopedia.com/terms/s/scalability.asp#:~:text=Scalability%20refers%20to%20the%20ability' },
+
+  { id: 22, term: 'Immutable Infrastructure', description: 'Immutable infrastructure is an approach where instead of making changes to existing infrastructure, the entire infrastructure, including servers and their configurations, is replaced with new versions. This approach ensures uniformity and reduces the risk associated with modifying configurations.', references: '“What Is Immutable Infrastructure? | DigitalOcean,” www.digitalocean.com. https://www.digitalocean.com/community/tutorials/what-is-immutable-infrastructure' },
+
+{ id: 23, term: 'Serverless Computing', description: 'Serverless computing is a cloud computing model in which cloud providers handle the underlying infrastructure, allowing developers to concentrate solely on writing application code. It eliminates the need for server management.', references: '“What Is Serverless Computing? | Serverless Definition | Cloudflare UK,” Cloudflare. Available: https://www.cloudflare.com/en-gb/learning/serverless/what-is-serverless/' },
+
+  { id: 24, term: 'API Gateway', description: 'An API Gateway is a specialized server that functions as a front-end for APIs, managing tasks such as receiving API requests, enforcing security measures and rate limiting, forwarding requests to the appropriate back-end service, and returning responses to the requester.' , references: '“What Is an API Gateway? A Quick Learn Guide | NGINX Learning,” NGINX. https://www.nginx.com/learn/api-gateway/#:~:text=An%20API%20gateway%20is%20a (accessed Sep. 08, 2023).' },
+
+  { id: 25, term: 'Container Orchestration', description: 'Container orchestration entails automating the deployment, scaling, and administration of containerized applications. Kubernetes is a widely used tool for orchestrating containers.', references: '“What is container orchestration?,” www.redhat.com. https://www.redhat.com/en/topics/containers/what-is-container-orchestration' },
+
+  { id: 26, term: 'Infrastructure Automation', description: 'Infrastructure automation is the practice of utilizing code and automation tools to provision and manage infrastructure resources, enhancing consistency and reducing manual configuration efforts.', references: '“Infrastructure Automation - Running Containerized Microservices on AWS,” docs.aws.amazon.com. https://docs.aws.amazon.com/whitepapers/latest/running-containerized-microservices/infrastructure-automation.html' },
+
+  { id: 27, term: 'Blue-Green Deployment', description: 'Blue-Green Deployment is a strategy for releasing software updates by maintaining two identical environments, one for the current version (blue) and the other for the new version (green). This approach facilitates updates without causing downtime.', references: '“What is blue green deployment?,” www.redhat.com. https://www.redhat.com/en/topics/devops/what-is-blue-green-deployment' },
+
+  { id: 28, term: 'Zero Downtime Deployment', description: 'Zero downtime deployment is a technique for updating or deploying software without causing interruptions or downtime for end-users. It is often achieved through methods like load balancing and gradual rollout.', references: '“What Is Zero Downtime Deployment?,” www.pingidentity.com. https://www.pingidentity.com/en/resources/blog/post/what-is-zero-downtime-deployment.html (accessed Sep. 08, 2023).' },
+
+  { id: 29, term: 'Latency', description: 'Latency refers to the time delay experienced between sending a request and receiving a response. In software and network contexts, it represents the time taken for data to travel from its source to its destination.', references: '“What is Latency? How to Reduce Latency? | Fortinet,” Fortinet, 2023. https://www.fortinet.com/resources/cyberglossary/latency#:~:text=Latency%20Definition (accessed Sep. 08, 2023).' },
+
+  { id: 30, term: 'High Availability', description: 'High availability (HA) is an architectural approach that ensures a system remains operational and accessible to users even in the face of hardware or software failures. It typically involves redundancy and failover mechanisms to maintain continuous service availability.', references: 'S. C. Apps, “What Is High Availability? Definition & How It Works,” Spanning, Mar. 21, 2023. https://spanning.com/blog/high-availability/.' },
+ 
 ];
 
 
