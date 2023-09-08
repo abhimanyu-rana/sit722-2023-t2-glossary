@@ -64,6 +64,26 @@ const tableData = [
 
   { id: 30, term: 'High Availability', description: 'High availability (HA) is an architectural approach that ensures a system remains operational and accessible to users even in the face of hardware or software failures. It typically involves redundancy and failover mechanisms to maintain continuous service availability.', references: 'S. C. Apps, “What Is High Availability? Definition & How It Works,” Spanning, Mar. 21, 2023. https://spanning.com/blog/high-availability/.' },
  
+  { id: 31, term: 'Infrastructure Orchestration', description: 'Infrastructure orchestration refers to the automated arrangement, coordination, and management of various infrastructure components and resources to efficiently deliver services and applications.', references: 'S. Work, “What is IT Infrastructure Orchestration,” Pliant - The Orchestration Platform, Oct. 27, 2022. https://pliant.io/what-is-it-infrastructure-orchestration/' },
+
+  { id: 32, term: 'Chaos Engineering', description: 'Chaos engineering is a practice of intentionally injecting controlled failures and chaos into a system to test its resilience and identify vulnerabilities. It helps improve system reliability and availability.', references: '“What Is Chaos Engineering? | OpenText,” www.microfocus.com. https://www.microfocus.com/en-us/what-is/chaos-engineering (accessed Sep. 08, 2023).' },
+
+  { id: 33, term: 'Continuous Deployment (CD)', description: 'CD is an extension of continuous delivery, where code changes are automatically deployed to production after passing automated tests and checks.', references: '“What is continuous deployment? | IBM,” www.ibm.com. https://www.ibm.com/topics/continuous-deployment#:~:text=Continuous%20deployment%20is%20a%20strategy (accessed Sep. 08, 2023).' },
+
+  { id: 34, term: 'Change Management', description: 'Change management is a systematic process for managing and controlling changes to infrastructure and software to ensure that they are implemented smoothly and with minimal disruption.' , references: 'wrike, “What is Change Management in Project Management?,” Wrike. https://www.wrike.com/project-management-guide/faq/what-is-change-management-in-project-management/' },
+
+  { id: 35, term: 'Failover', description: 'Failover is a high availability technique where traffic is automatically redirected to a backup system or resource in the event of a primary system failure, ensuring uninterrupted service.', references: '“What is a failover? Definition and related FAQs,” www.druva.com. https://www.druva.com/glossary/what-is-a-failover-definition-and-related-faqs#:~:text=Failover%20is%20the%20ability%20to' },
+
+  { id: 36, term: 'Monitoring and Alerting', description: 'Monitoring involves the continuous tracking of system performance and availability, while alerting involves notifying relevant parties when predefined thresholds or issues are detected.', references: '“Designing a metrics monitoring and alerting system,” www.statcan.gc.ca. https://www.statcan.gc.ca/en/data-science/network/monitoring-alerting-system (accessed Sep. 08, 2023).' },
+
+  { id: 37, term: 'Service Level Agreement (SLA)', description: 'An SLA is a formal agreement that outlines the level of service a provider guarantees to deliver to its customers. It typically includes performance metrics and expectations.', references: '“What Is a Service Level Agreement (SLA)? And How To Write One,” Coursera. https://www.coursera.org/articles/sla' },
+
+  { id: 38, term: 'Log Aggregation', description: ' Log aggregation is the process of collecting, centralizing, and storing log data from various sources to facilitate troubleshooting, analysis, and auditing.', references: 'Datadog, “Log Aggregation: What It Is & How It Works | Datadog,” Log Aggregation: What It Is & How It Works, Aug. 03, 2021. https://www.datadoghq.com/knowledge-center/log-aggregation/#:~:text=Log%20aggregation%20is%20the%20process' },
+
+  { id: 39, term: 'Capacity Planning', description: 'Capacity planning involves forecasting and allocating resources to meet current and future demands, ensuring that systems can handle expected workloads.', references: '“What Is Capacity Planning? Definition, Methodologies, Benefits,” Simplilearn.com, Mar. 29, 2021. https://www.simplilearn.com/capacity-planning-article#:~:text=A%20capacity%20planning%20process%20involves (accessed Apr. 14, 2023).' },
+
+  { id: 40, term: 'Service Level Objective (SLO)', description: 'SLO is a specific, measurable target that defines the level of service quality and performance that a service provider aims to deliver to customers.', references: 'Atlassian, “SLA vs. SLO vs. SLI - Differences,” Atlassian. https://www.atlassian.com/incident-management/kpis/sla-vs-slo-vs-sli#:~:text=What%20is%20an%20SLO%3F (accessed Sep. 08, 2023).' },
+ 
 ];
 
 
