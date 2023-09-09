@@ -84,6 +84,26 @@ const tableData = [
 
   { id: 40, term: 'Service Level Objective (SLO)', description: 'SLO is a specific, measurable target that defines the level of service quality and performance that a service provider aims to deliver to customers.', references: 'Atlassian, “SLA vs. SLO vs. SLI - Differences,” Atlassian. https://www.atlassian.com/incident-management/kpis/sla-vs-slo-vs-sli#:~:text=What%20is%20an%20SLO%3F (accessed Sep. 08, 2023).' },
  
+  { id: 41, term: 'Artifact Repository', description: 'An artifact repository is a centralized location for storing and managing binary artifacts, such as compiled code, libraries, and dependencies. It plays a crucial role in the build and deployment process.', references: 'C. Storz, “What Is an Artifact Repository? | Harness,” Harness.io. https://www.harness.io/blog/what-is-artifact-repository (accessed Sep. 09, 2023).' },
+
+  { id: 42, term: 'Feature Flag', description: 'A feature flag (or feature toggle) is a DevOps technique that allows developers to enable or disable specific features or code segments in a software application without redeploying the entire application. This enables controlled feature rollout and experimentation.', references: '“Feature Flags—What Are Those? Uses, Benefits & Best Practices,” LaunchDarkly. https://launchdarkly.com/blog/what-are-feature-flags/#:~:text=Feature%20flags%20are%20a%20software' },
+
+  { id: 43, term: 'KPI (Key Performance Indicator)', description: 'KPIs are quantifiable metrics used to assess the performance and effectiveness of DevOps processes. Examples include deployment frequency, mean time to recovery (MTTR), and error rates.', references: 'Qlik, “What is a Key Performance Indicator (KPI)? Guide & Examples,” Qlik, 2023. https://www.qlik.com/us/kpi#:~:text=KPI%20stands%20for%20key%20performance' },
+
+  { id: 44, term: 'ChatOps', description: 'ChatOps is a collaboration model that integrates chat platforms (e.g., Slack, Microsoft Teams) with DevOps tools and automation. It allows teams to execute commands, receive notifications, and collaborate on tasks within a chat interface.  ' , references: 'Atlassian, “ChatOps for incident management,” Atlassian. https://www.atlassian.com/incident-management/devops/chatops#:~:text=%E2%80%9CChatOps%20is%20a%20collaboration%20model (accessed Sep. 09, 2023).' },
+
+  { id: 45, term: 'Dark Launching', description: 'Dark launching, also known as feature toggling or feature flags, is a technique in which new features or code changes are deployed to the production environment but kept hidden from users. It allows for testing and validation before enabling the feature for all users.  ', references: '“Dark Launch,” Split. https://www.split.io/glossary/dark-launch/#:~:text=What%20is%20a%20Dark%20Deployment (accessed Sep. 09, 2023).' },
+
+  { id: 46, term: 'Feature Drift', description: 'Feature Drift refers to the unintended changes or discrepancies in the behavior of software features between different environments, such as development, staging, and production.', references: 'J. Kanjilal, “Cloud Drift Detection With Policy-as-Code,” DevOps.com, Jun. 01, 2023. https://devops.com/cloud-drift-detection-with-policy-as-code/#:~:text=What%20is%20Drift%3F (accessed Sep. 09, 2023).' },
+
+  { id: 47, term: 'Event-Driven Architecture', description: 'Event-driven architecture is an approach where systems respond to events (such as user actions or messages) by triggering appropriate actions or workflows. It is common in microservices and serverless architectures.', references: '“Event-Driven Architecture,” Amazon Web Services, Inc. https://aws.amazon.com/event-driven-architecture/#:~:text=An%20event%2Ddriven%20architecture%20uses' },
+
+  { id: 48, term: 'Observability', description: 'Observability is the ability to understand and troubleshoot complex systems by collecting and analysing data from various sources, including logs, metrics, and traces.', references: '“DevOps observability: What is it and how to implement it?,” www.opsera.io. https://www.opsera.io/blog/devops-observability-what-is-it-and-how-to-implement-it#:~:text=Observability%2C%20on%20the%20other%20hand (accessed Sep. 09, 2023).' },
+
+  { id: 49, term: 'Shift-Right Testing', description: 'Shift-Right Testing is a testing approach that focuses on testing applications and services in production or near-production environments to identify issues that may not be caught in traditional testing phases.', references: 'S. Gunja, “Shift left vs shift right: A DevOps mystery solved,” Dynatrace news, Oct. 27, 2022. https://www.dynatrace.com/news/blog/what-is-shift-left-and-what-is-shift-right/#:~:text=Shift%20right%20is%20the%20practice (accessed Sep. 09, 2023).' },
+
+  { id: 50, term: 'Value Stream Mapping', description: 'Value Stream Mapping is a Lean management method used to visualize and analyze the steps and activities involved in delivering value to customers. It helps identify bottlenecks and areas for improvement in the software delivery process.', references: 'Atlassian, “Value Stream Mapping,” Atlassian. https://www.atlassian.com/continuous-delivery/principles/value-stream-mapping#:~:text=Value%20stream%20mapping%20(sometimes%20called' },
+ 
 ];
 
 
